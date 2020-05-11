@@ -1,0 +1,5 @@
+Stampare l’elenco degli stati, indicando per ciascuno il numero di stati confinanti (grado del vertice):
+ho calcolato con un for, ce anche il metodo degreeOfVertex dal grafo
+
+Stampare il numero di componenti connesse nel grafo.:
+non ho capito bene la richiesta, ho fatto il connectivity 
