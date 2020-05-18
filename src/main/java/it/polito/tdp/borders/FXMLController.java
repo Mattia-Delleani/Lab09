@@ -52,7 +52,7 @@ public class FXMLController {
     	if(anno>=1816 && anno<=2016) {
     		
     		txtResult.appendText(this.model.stampaStati(anno));
-    		
+    		txtResult.appendText("\nNumero vertici:"+this.model.getGrafo().vertexSet().size()+" e archi: "+this.model.getGrafo().edgeSet().size());
     		//COMPONENTI CONNESSE
     		List<Set<Country>> componenti =  this.model.getNumberOfConnectedComponents();
     		txtResult.appendText("\nVi sono "+componenti.size()+" gruppi di componenti connesse. Quelle con piu di un arco sono: ");

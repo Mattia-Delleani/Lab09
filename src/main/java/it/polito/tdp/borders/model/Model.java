@@ -107,4 +107,9 @@ public class Model {
 			
 	}
 
+	public Graph<Country, DefaultEdge> getGrafo() {
+		return grafo;
+	}
+
+	
 }
